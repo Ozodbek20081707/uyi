@@ -3,7 +3,36 @@ html ,body {
 }
 .brok {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+}
+.dark {
+    margin-left: 50px;
+}
+.vatan {
+    margin-left: 300px;
+    display: flex;
+}
+h4 {
+    margin: 10px;
+}
+h3 {
+    margin-right: 30px;
+}
+.h1 {
+    font-size: 6rem;
+    width: 100px;
+}
+.break {
+    width: 250px;
+    height: 300px;
+    scale: 1.5;
+    position: absolute;
+    right: 250px;
+    bottom: 150px;
+}
+.ring {
+    width: 100px;
+    height: 100px;
 }
 section {
     width: 100%;
@@ -50,8 +79,8 @@ section2 {
     margin-top: 200px;
     width: 400px;
     height: 300px;
-    border: 1px solid bisque;
-    background-color: bisque;
+    border: 1px solid lightgray;
+    background-color: lightgray;
 }
 .set {
     text-align: center;
@@ -75,9 +104,10 @@ section2 {
     display: flex;
 }
 .text {
-    margin-left: 300px;
-    margin-top: -200px;
-    width: 400px;
+    width: 30%;
+    position: absolute;
+    left: 600px;
+    top: 3050px;
 }
 
 .text input {
@@ -88,7 +118,24 @@ section2 {
 .sui {
     height: 100px;
 }
-.end {
-    color: aliceblue;
+.bir1 {
+    margin-top: 350px;
+}
+.fil {
+    width: 100px;
+    height: 60px;
+    background-color: lightgray;
+}
+.flay {
+    width: 100px;
+    height: 80px;
+}
+.Submit {
+    width: 40px;
+    height: 20px;
     background-color: black;
+    color: white;
+}
+input {
+    padding: 20px;
 }
